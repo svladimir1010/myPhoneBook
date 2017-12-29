@@ -1,0 +1,52 @@
+input, button,body {
+	font-size: 30px;
+}
+.item {
+	border: 2px solid;
+	padding-left: 0;
+	margin: 5px 0;
+	min-width: 35%;
+	max-width: 40%;
+}
+.list  li{
+	list-style: none;
+	background-color: pink;
+	padding: 5px 10px;
+	margin: 5px;
+}
+
+// .list li:after {
+// 	display: block;
+// 	content: '';
+// 	clear: both;
+// }
+
+// .list li button {
+// 	float: right;
+// }
+// .list li.passed {
+// 	text-decoration: line-through;
+// 	opacity: 0.5;
+// }
+
+
+// .cont {
+// 	width: 80%;
+// }
+
+
+#numbers {
+	padding: 0;
+	
+}
+#numbers li {
+	list-style: none;
+	background-color: LightGrey;
+	padding: 2px;
+	display: list-item;
+	margin: 4px 0 4px;
+	width: 500px;
+}
+.list .nextNum {
+	background-color: lime;
+}
